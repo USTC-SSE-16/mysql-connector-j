@@ -15,7 +15,19 @@
 	<classpathentry kind="src" path="src/main/protocol-impl/java"/>
 	<classpathentry kind="src" path="src/main/resources"/>
 	<classpathentry kind="src" path="src/test/java"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/MySQL ConnectorJ 8.0 Extra Libraries"/>
+	<classpathentry kind="lib" path="/home/swu/code/jdbc/javassist.jar"/>
+	<classpathentry kind="lib" path="/home/swu/code/jdbc/protobuf-java-3.17.3.jar"/>
+	<classpathentry kind="lib" path="/home/swu/code/jdbc/mchange-commons-java-0.2.20.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
+	<classpathentry kind="lib" path="/home/swu/code/jdbc/c3p0-0.9.1.2.jar"/>
+	<classpathentry kind="lib" path="/home/swu/code/jdbc/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="/home/swu/code/jdbc/slf4j.api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="/home/swu/code/jdbc/slf4j-log4j12-1.6.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
